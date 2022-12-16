@@ -1,0 +1,26 @@
+.app-empty {
+    text-align: center;
+}
+.app-empty 
+.app-empty-icon {
+    font-size: 5rem;
+    color: #c9c9c9;
+}
+.app-empty 
+.app-empty-image {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+.app-empty 
+.app-empty-image.th-size-small {
+    width: 25%;
+}
+.app-empty 
+.app-empty-message {
+    display: block;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #555;
+}

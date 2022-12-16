@@ -1,0 +1,6 @@
+.order-card {
+    padding: 2rem 2.5rem;
+    border-radius: .50rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    background: #fff;
+}

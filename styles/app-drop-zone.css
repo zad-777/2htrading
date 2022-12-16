@@ -1,0 +1,26 @@
+.app-drop-zone {
+    background: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-image-source: url("http://i.stack.imgur.com/LKclP.png");
+    border: 1px dashed #ccc;
+    border-radius: .50em;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+.app-drop-zone 
+.app-drop-zone-input {
+    display: none;
+}
+.app-drop-zone 
+.app-drop-zone-icon {
+    font-size: 2rem;
+    line-height: 0;
+}
+.app-drop-zone 
+.app-drop-zone-text {
+    line-height: 0;
+}

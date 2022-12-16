@@ -1,0 +1,97 @@
+.th-alert {
+    margin-bottom: var(--th-margin-bottom);
+    border-radius: var(--th-box-radius);
+    padding: 1.5rem;
+    padding-top: 2rem;
+    position: relative;
+}
+.th-alert
+.th-alert-icon {
+    font-size: 5rem;
+    line-height: 1;
+}
+.th-alert
+.th-alert-close {
+    font-size: .60rem;
+    text-decoration: none;
+    position: absolute;
+    right: .70rem;
+    top: .2rem;
+}
+.th-alert 
+.th-alert-message {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1rem;
+}
+.th-alert 
+.th-alert-message 
+.th-alert-message-title {
+    font-size: .90rem;
+    font-weight: bold;
+    color: #222;
+}
+.th-alert 
+.th-alert-message 
+.th-alert-message-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.th-alert.th-alert-danger {
+    background: #fdeded;
+}
+.th-alert.th-alert-danger 
+.th-alert-icon {
+    color: #f06360;
+}
+.th-alert.th-alert-danger 
+.th-alert-close {
+    color: #f06360;
+}
+.th-alert.th-alert-danger 
+.th-alert-close:hover {
+    color: #a12120;
+}
+.th-alert.th-alert-danger  
+.th-alert-message 
+.th-alert-message-title {
+    color: #a12120;
+}
+.th-alert.th-alert-danger 
+.th-alert-message 
+.th-alert-message-list {
+    color: #a12120;
+}
+
+/* success */
+
+.th-alert.th-alert-success {
+    background: #fdeded;
+}
+.th-alert.th-alert-success 
+.th-alert-icon {
+    color: #f06360;
+}
+.th-alert.th-alert-success 
+.th-alert-close {
+    color: #f06360;
+}
+.th-alert.th-alert-success 
+.th-alert-close:hover {
+    color: #a12120;
+}
+.th-alert.th-alert-success  
+.th-alert-message 
+.th-alert-message-title {
+    color: #a12120;
+}
+.th-alert.th-alert-success 
+.th-alert-message 
+.th-alert-message-list {
+    color: #a12120;
+}

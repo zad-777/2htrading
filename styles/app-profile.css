@@ -1,0 +1,62 @@
+.app-profile {
+    background: #fff;
+}
+.app-profile 
+.app-profile-background {
+    padding: .50rem;
+
+}
+.app-profile 
+.app-profile-background 
+.app-profile-background-image {
+    display: block;
+    margin-left: auto;
+}
+.app-profile 
+.app-profile-name {
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: .05rem;
+}
+.app-profile 
+.app-profile-name-meta {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7e889b;
+}
+.app-profile 
+.app-profile-item {
+    width: 25%;
+    margin-bottom: 1.5rem;
+}
+.app-profile 
+.app-profile-item.app-profile-item-custom {
+    width: max-content;
+    margin-bottom: 1.5rem;
+}
+.app-profile 
+.app-profile-item 
+.app-profile-item-meta {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #657fb8;
+    margin-bottom: .25rem;
+}
+.app-profile 
+.app-profile-item 
+.app-profile-item-value {
+    font-weight: 500;
+}
+.app-profile 
+.app-profile-item 
+.app-profile-item-image {
+    width: 256px;
+    height: 256px;
+}
+.app-profile 
+.app-profile-actions {
+    margin-top: 2rem;
+}

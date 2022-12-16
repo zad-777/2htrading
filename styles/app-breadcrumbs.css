@@ -1,0 +1,36 @@
+.app-breadcrumbs {
+    margin-bottom: 2rem;
+}
+.app-breadcrumbs .app-breadcrumbs-seperator {
+    padding: 0 .50rem;
+}
+.app-breadcrumbs a, 
+.app-breadcrumbs span {
+    font-weight: 500;
+    transition: .2s;
+    color: #888;
+    text-decoration: none;
+}
+.app-breadcrumbs 
+a.app-breadcrumbs-item 
+.app-breadcrumbs-item-icon {
+    color: #888;
+    margin-right: .50rem;
+}
+.app-breadcrumbs a:hover {
+    color: var(--app-color-secondary);
+}
+.app-breadcrumbs 
+a.app-breadcrumbs-item:hover  
+.app-breadcrumbs-item-icon {
+    color: var(--app-color-secondary);
+}
+.app-breadcrumbs 
+a.app-breadcrumbs-item.active {
+    color: var(--app-color-primary) !important;
+}
+.app-breadcrumbs 
+a.app-breadcrumbs-item.active 
+.app-breadcrumbs-item-icon {
+    color: var(--app-color-primary);
+}

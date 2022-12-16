@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+    user-select: none;
+}
+html, body {
+    height: 100%;
+    background: #fff;
+}
+.wrapper {
+    padding-top: 2em;
+    padding-left: var(--app-padding-x);
+    padding-right: var(--app-padding-x);
+    padding-bottom: 4em;
+    min-height: 868px;
+    height: max-content;
+}
+.product-card {
+    padding: 1rem;
+    display: block;
+    border-radius: 0;
+    border-radius: .50rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    text-align: center;
+    height: 500px;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.product-card .img-wrapper {
+    background: #fff;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.product-card a.product-card-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem 1.50rem;
+    text-decoration: none;
+    color: #666;
+    font-size: 1.5rem;
+}
+.product-card a.product-card-cart:hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem 1.50rem;
+    text-decoration: none;
+    color: var(--app-color-primary);
+    font-size: 1.5rem;
+}
+.product-card a.product-card-cart.is-added {
+    color: var(--app-color-primary);
+}
+.product-card .img-wrapper img {
+    width: 50%;
+}
+.product-card p {
+    line-height: 1;
+}
+.product-card p.name {
+    color: var(--app-color-primary);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.product-card p.description {
+    color: grey;
+    margin-bottom: 1.5rem;
+}
+.product-card p.price {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.product-card p.price span {
+}
+footer {
+    padding: 2rem;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+footer p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+footer a {
+    font-size: 2rem;
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: .50rem;   
+}
+.page-title {
+    font-weight: 900;
+}
+.page-meta {
+    color: #666;
+}
+.scan-to-pay {
+    display: none;
+}
+.scan-to-pay.shown {
+    display: block;
+}

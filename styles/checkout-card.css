@@ -1,0 +1,55 @@
+.checkout-card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    border-radius: .50rem;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    min-width: 640px;
+    width: 50%;
+    max-width: 640px;
+}
+.checkout-card .image-wrapper {
+    display: block;
+    margin: auto;
+    width: 640px;
+    height: 576px;
+    margin-bottom: 1.5rem;
+}
+.checkout-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.checkout-card 
+.checkout-card-title {
+    text-align: center;
+    font-weight: bold;
+}
+.checkout-card 
+.checkout-card-price {
+    text-align: center;
+    color: var(--app-color-primary);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.checkout-card 
+.checkout-card-description {
+    text-align: center;
+    color: #777;
+}
+.checkout-card
+.data-label {
+    font-weight: 500;
+}
+.checkout-card 
+.data-label-value span {
+    color: var(--app-color-primary);
+    margin-right: 1rem;
+}
+.checkout-card 
+.data-label-value {
+    color: #555;
+}
+.qr-code {
+    width: 100%;
+}

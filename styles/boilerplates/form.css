@@ -1,0 +1,102 @@
+.form {
+    padding: 2.5rem 2rem;
+    border: 1px solid #ccc;
+}
+.required {
+    color: red;
+}
+.title {
+    line-height: 1;
+    font-weight: bold;
+    color: #333;
+}
+.meta {
+    font-weight: 500;
+    color: grey;
+}
+.meta-style {
+    width: max-content;
+    border-bottom: 5px solid var(--th-color-primary);
+}
+.form-guide {
+    font-size: 17px;
+    color: #222;
+    margin-top: 2rem;
+    margin-bottom: .50rem;
+    line-height: 1;
+}
+.form-guide-meta {
+    font-size: 14px;
+    color: grey;
+    padding-bottom: .95rem;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 1.5rem;
+}
+.link {
+    color: var(--th-color-primary);
+    padding: .95rem 0;
+    width: 100%;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: .95rem;
+}
+.outline-button {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 1.5rem;
+    padding: var(--th-box-padding);
+    border: 1px solid #ccc;
+    border-radius: var(--th-box-radius);
+    font-weight: 500;
+    font-size: var(--th-box-font-size);
+    color: #888;
+}
+.input-hidden {
+    display: none;
+}
+.alt {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 1.5rem;
+    color: gray;
+    text-align: center;
+}
+.alt a {
+    text-decoration: none;
+    color: var(--th-color-primary);
+}
+.th-input-text.override {
+    background: #f0f0f0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #888;
+    color: #000;
+}
+.th-input-text.override {
+    background: #f0f0f0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #888;
+    color: #000;
+}
+.th-input-text.override:focus {
+    border: none;
+    border-bottom: 1px solid var(--app-color-primary);
+    background: var(--app-color-lightess);
+}
+.th-input-select.override {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #888;
+    color: #000;
+}
+.th-input-select.override:focus {
+    border: none;
+    border-bottom: 1px solid var(--app-color-primary);
+    background: var(--app-color-lightess);
+}

@@ -1,0 +1,8 @@
+:root {
+    --app-padding-x: 4em;
+    --app-color-primary: #455ede; /* main color */
+    --app-color-secondary: #a1b3ff; /* light main color */
+    --app-color-tertiary: #d98500; /* shade for main color */
+    --app-color-lightess: #fff7eb; /* lightess main color */
+    --app-color-background: #f0f1f3; /* background color */
+}

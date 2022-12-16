@@ -1,0 +1,35 @@
+.app-analytic-card {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    border-radius: .50rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+.app-analytic-card 
+.app-analytic-card-info {
+
+}
+.app-analytic-card 
+.app-analytic-card-info 
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fa6a0a;
+    margin-bottom: 0;
+}
+.app-analytic-card 
+.app-analytic-card-info 
+p {
+    color: #999;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.app-analytic-card 
+.app-analytic-card-icon {
+    font-size: 2rem;
+    color: #666;
+}

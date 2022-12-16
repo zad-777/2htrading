@@ -1,0 +1,18 @@
+.app-card {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+}
+.app-card 
+.app-card-header {
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 1rem;
+}
+.app-card 
+.app-card-header 
+.app-card-header-title {
+    color: #fa6a0a;
+    font-weight: bold;
+    user-select: none;
+}

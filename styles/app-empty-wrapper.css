@@ -1,0 +1,27 @@
+.empty-wrapper {
+    width: 100%;
+    padding: 4em 0;
+}
+.empty-wrapper 
+.empty-wrapper-image {
+    min-width: 540px;
+    width: 100%;
+    max-width: 540px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.empty-wrapper 
+.empty-wrapper-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #666;
+    text-align: center;
+}
+.empty-wrapper 
+.empty-wrapper-button {
+    width: 128px;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}

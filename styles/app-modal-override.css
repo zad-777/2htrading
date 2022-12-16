@@ -1,0 +1,39 @@
+.th-input-label.override {
+    font-size: .75rem;
+    color: #666;
+    text-transform: uppercase;
+}
+.th-input-text.override, .th-input-textarea.override, .th-input-select.override {
+    border-radius: 0;
+}
+.th-upload.override {
+    height: 240px;
+    border: 1px dashed #ccc;
+}
+.th-upload.override.checkout {
+    height: 400px;
+    border: 1px dashed #ccc;
+}
+.th-upload.override 
+.th-upload-message 
+.icon {
+    font-size: 4rem;
+    color: #888 !important;
+}
+.th-upload.override 
+.th-upload-message 
+.title {
+    font-size: .95rem;
+    font-weight: 500;
+    color: #888 !important;
+}
+.th-upload.override a.remove-button {
+    color: #fff;
+}
+.th-table.override thead tr th {
+    padding-left: 1rem;
+}
+.th-table.override tbody tr td {
+    padding: .50rem 1rem;
+    object-fit: cover;
+}
